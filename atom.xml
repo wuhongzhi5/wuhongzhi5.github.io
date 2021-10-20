@@ -3,11 +3,11 @@
   <title>顾冷的博客</title>
   
   <subtitle>顾冷的博客</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://wuhongzhi5.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2021-10-18T12:07:48.782Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://wuhongzhi5.github.io/"/>
+  <updated>2021-10-20T13:21:00.043Z</updated>
+  <id>https://wuhongzhi5.github.io/</id>
   
   <author>
     <name>顾冷</name>
@@ -18,14 +18,35 @@
   
   <entry>
     <title>js数组方法</title>
-    <link href="http://example.com/2021/10/18/js-shu-zu-fang-fa/"/>
-    <id>http://example.com/2021/10/18/js-shu-zu-fang-fa/</id>
+    <link href="https://wuhongzhi5.github.io/2021/10/18/js-shu-zu-fang-fa/"/>
+    <id>https://wuhongzhi5.github.io/2021/10/18/js-shu-zu-fang-fa/</id>
     <published>2021-10-18T12:07:48.000Z</published>
-    <updated>2021-10-18T12:07:48.782Z</updated>
+    <updated>2021-10-20T13:21:00.043Z</updated>
     
     
     
     
+    <category term="数组方法" scheme="https://wuhongzhi5.github.io/categories/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/"/>
+    
+    
+    <category term="数组方法" scheme="https://wuhongzhi5.github.io/tags/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ajax</title>
+    <link href="https://wuhongzhi5.github.io/2021/10/17/ajas/"/>
+    <id>https://wuhongzhi5.github.io/2021/10/17/ajas/</id>
+    <published>2021-10-17T12:07:48.000Z</published>
+    <updated>2021-10-20T13:21:15.570Z</updated>
+    
+    
+    
+    
+    <category term="ajax" scheme="https://wuhongzhi5.github.io/categories/ajax/"/>
+    
+    
+    <category term="ajax" scheme="https://wuhongzhi5.github.io/tags/ajax/"/>
     
   </entry>
   
