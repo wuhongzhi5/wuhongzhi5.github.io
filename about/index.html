@@ -551,7 +551,7 @@
         },
         xAxis: {
             type: 'category',
-            data: ["2020-10","2020-11","2020-12","2021-01","2021-02","2021-03","2021-04","2021-05","2021-06","2021-07","2021-08","2021-09","2021-10"]
+            data: ["2020-11","2020-12","2021-01","2021-02","2021-03","2021-04","2021-05","2021-06","2021-07","2021-08","2021-09","2021-10","2021-11"]
         },
         yAxis: {
             type: 'value',
@@ -561,7 +561,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,2],
+                data: [0,0,0,0,0,0,0,0,0,0,0,2,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -603,7 +603,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"ajax","value":1},{"name":"数组方法","value":1}],
+                data: [{"name":"数组方法","value":1},{"name":"ajax","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -627,7 +627,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["ajax","数组方法"]
+                data: ["数组方法","ajax"]
             }
         ],
         yAxis: [
@@ -707,7 +707,7 @@
         <div class="col s12 m6 l6" data-aos="fade-up">
             <div class="skillbar">
                 <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #00BCD4 0%, #80DEEA 100%); width: 70%">
+                     style="background: linear-gradient(to right, #80DEEA 0%, #00BCD4 100%); width: 70%">
                     <span>CSS</span>
                 </div>
                 <div class="skill-bar-percent">70%</div>
@@ -726,6 +726,17 @@
         </div>
         
         
+        <div class="col s12 m6 l6" data-aos="fade-up">
+            <div class="skillbar">
+                <div class="skillbar-title"
+                     style="background: linear-gradient(to right, #f37777 0%, #EA5455 100%); width: 80%">
+                    <span>Node</span>
+                </div>
+                <div class="skill-bar-percent">80%</div>
+            </div>
+        </div>
+        
+        
     </div>
 
     
@@ -736,14 +747,14 @@
         <div class="tag-chips center-align">
             
             
-            <a href="/tags/ajax/">
-                <span class="chip center-align waves-effect waves-light chip-default">ajax</span>
+            <a href="/tags/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/">
+                <span class="chip center-align waves-effect waves-light chip-default">数组方法</span>
             </a>
             
             
             
-            <a href="/tags/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/">
-                <span class="chip center-align waves-effect waves-light chip-default">数组方法</span>
+            <a href="/tags/ajax/">
+                <span class="chip center-align waves-effect waves-light chip-default">ajax</span>
             </a>
             
             
