@@ -6,7 +6,7 @@
   <link href="https://wuhongzhi5.github.io/atom.xml" rel="self"/>
   
   <link href="https://wuhongzhi5.github.io/"/>
-  <updated>2021-11-16T14:28:57.081Z</updated>
+  <updated>2021-11-16T14:56:29.670Z</updated>
   <id>https://wuhongzhi5.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://wuhongzhi5.github.io/2021/11/16/hello-world/"/>
     <id>https://wuhongzhi5.github.io/2021/11/16/hello-world/</id>
     <published>2021-11-16T14:28:55.105Z</published>
-    <updated>2021-11-16T14:28:57.081Z</updated>
+    <updated>2021-11-16T14:56:29.670Z</updated>
     
     
       
@@ -34,6 +34,8 @@
     
     
     
+    
+    <category term="Hello World" scheme="https://wuhongzhi5.github.io/tags/Hello-World/"/>
     
   </entry>
   
