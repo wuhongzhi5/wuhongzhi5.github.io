@@ -1179,6 +1179,7 @@ article .article-tags .chip {
 
 #articleContent .img-item {
     text-align: center;
+    overflow: hidden;
 }
 
 #articleContent img {

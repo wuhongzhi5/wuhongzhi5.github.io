@@ -359,6 +359,15 @@
     .toc-fixed {
         position: fixed;
         top: 64px;
+        /* bottom: 100px;
+        overflow-y: scroll; */
+    }
+
+    .toc-fixed2 {
+        position: fixed;
+        top: 64px;
+        bottom: 100px;
+        overflow-y: scroll;
     }
 
     .toc-widget {
@@ -367,7 +376,7 @@
     }
 
     .toc-widget .toc-title {
-        padding: 35px 0 15px 17px;
+        padding: 30px 0 15px 17px;
         font-size: 1.5rem;
         font-weight: bold;
         line-height: 1.5rem;
@@ -497,7 +506,7 @@
 <li><p>Vue 是目前国内前端使用者最多的框架，Vue3 是将来的必然趋势</p>
 </li>
 </ul>
-<img src="./images/04.png" width="40%" align="left">
+<img src="/medias/images/04.png" width="40%" align="left">
 
 
 
@@ -513,7 +522,7 @@
 <li>启动应用：<code>npm run dev</code></li>
 <li>访问应用：<code>localhost:3000</code></li>
 </ol>
-<img src="./images/05.png" width="35%" align="left">
+<img src="/medias/images/05.png" width="35%" align="left">
 
 
 
@@ -535,13 +544,13 @@
 <p>目标：掌握组合式 API 相比较选项式 API，它的优势是什么。</p>
 </blockquote>
 <p>在选项式API中，它将数据和逻辑进行了分离，所有不相关的数据被放置在了一起，所以不相关的逻辑被放置在了一起，随着应用规模的增加，项目将会变得越来越难以维护。</p>
-<img src="./images/01.gif" width="40%" align="left">
+<img src="/medias/images/01.gif" width="40%" align="left">
 
 <p>在组合式 API 中，它将同一个功能的逻辑和数据放置在了一起，使同一个的功能代码更加聚合。</p>
-<img src="./images/02.gif" width="50%" align="left">
+<img src="/medias/images/02.gif" width="50%" align="left">
 
 <p>同一个功能的代码可以被抽取到单独的文件中，使应用代码更加维护。</p>
-<img src="./images/03.gif" align="left" width="50%">
+<img src="/medias/images/03.gif" align="left" width="50%">
 
 <h2 id="5-组合式-API-入口"><a href="#5-组合式-API-入口" class="headerlink" title="5. 组合式 API 入口"></a>5. 组合式 API 入口</h2><blockquote>
 <p>目标：掌握 setup 函数的基本使用。</p>
@@ -1762,12 +1771,12 @@ export default {
 <p>掌握 Vuex 实现全局状态管理的方式</p>
 </blockquote>
 <h3 id="21-1-问题"><a href="#21-1-问题" class="headerlink" title="21.1 问题"></a>21.1 问题</h3><p>在不使用全局状态管理库时, 应用状态由组件管理, 当多个组件需要共享使用同一个应用状态时, 应用状态需要通过 props 或自定义事件在组件之间进行传递, 在组件与组件之间的关系比较疏远时, 手递手的这种传递方式显得特别混乱, 使得应用的维护变得困难.</p>
-<img src="./images/87.png" align="left" width="30%">
+<img src="/medias/images/87.png" align="left" width="30%">
 
   
 
 <p>在使用了全局状态管理库后, 需要共享的应用状态被单独存储在一个独立于组件的 Store 对象中, 所有组件可以直接从这个对象中获取状态, 省去了繁琐的组件状态传递过程. 而且当 Store 中的状态发生变化后，组件也会自动更新。</p>
-<img src="./images/87_1.png" align="left" width="30%">
+<img src="/medias/images/87_1.png" align="left" width="30%">
 
 <h3 id="21-2-Vuex-工作流程"><a href="#21-2-Vuex-工作流程" class="headerlink" title="21.2 Vuex 工作流程"></a>21.2 Vuex 工作流程</h3><p>State: 用于存储应用状态 (store.state)</p>
 <p>Action: 用于执行异步操作 (dispatch)</p>
@@ -1775,7 +1784,7 @@ export default {
 <p>Getter: vuex 中的计算属性 (store.getters)</p>
 <p>Module: 模块, 用于对状态进行拆分</p>
 <p>在组件中开发者可以调用 dispatch 方法触发 Action 执行异步操作, 当异步操作执行完成后, 在 Action 中可以继续调用 commit 方法触发 mutation 修改状态, 当状态被修改以后, 视图更新. </p>
-<img src="./images/85.png" align="left" width="70%">
+<img src="/medias/images/85.png" align="left" width="70%">
 
 <h3 id="21-3-下载"><a href="#21-3-下载" class="headerlink" title="21.3 下载"></a>21.3 下载</h3><p>Vuex 目前有两个版本, 一个是 <code>3.6.2</code>, 另一个是 <code>4.0.2</code>, 3.x 的版本是供 Vue2 使用的, 4.x 版本是供 Vue3 使用的.</p>
 <p>在下载 Vuex 的时候如果不加版本号，默认下载的是 3.x 版本, 而我们要使用的是 4.x 的版本, 所以在下载时千万记得加版本号.</p>
@@ -1992,7 +2001,7 @@ export default {
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
-<img src="./images/17.png">
+<img src="/medias/images/17.png">
 
 <h4 id="21-9-3-命名空间模块"><a href="#21-9-3-命名空间模块" class="headerlink" title="21.9.3 命名空间模块"></a>21.9.3 命名空间模块</h4><p>命名空间模块需要在模块对象中添加 <code>namespaced: true</code> 选项。</p>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span> createStore <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vuex'</span>
@@ -2461,246 +2470,132 @@ function useDebounceRef(initialValue, delay) {
                 </div>
             </div>
             
-                <style>
-    #reward {
-        margin: 40px 0;
-        text-align: center;
-    }
-
-    #reward .reward-link {
-        font-size: 1.4rem;
-        line-height: 38px;
-    }
-
-    #reward .btn-floating:hover {
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    #rewardModal {
-        width: 320px;
-        height: 350px;
-    }
-
-    #rewardModal .reward-title {
-        margin: 15px auto;
-        padding-bottom: 5px;
-    }
-
-    #rewardModal .modal-content {
-        padding: 10px;
-    }
-
-    #rewardModal .close {
-        position: absolute;
-        right: 15px;
-        top: 15px;
-        color: rgba(0, 0, 0, 0.5);
-        font-size: 1.3rem;
-        line-height: 20px;
-        cursor: pointer;
-    }
-
-    #rewardModal .close:hover {
-        color: #ef5350;
-        transform: scale(1.3);
-        -moz-transform:scale(1.3);
-        -webkit-transform:scale(1.3);
-        -o-transform:scale(1.3);
-    }
-
-    #rewardModal .reward-tabs {
-        margin: 0 auto;
-        width: 210px;
-    }
-
-    .reward-tabs .tabs {
-        height: 38px;
-        margin: 10px auto;
-        padding-left: 0;
-    }
-
-    .reward-content ul {
-        padding-left: 0 !important;
-    }
-
-    .reward-tabs .tabs .tab {
-        height: 38px;
-        line-height: 38px;
-    }
-
-    .reward-tabs .tab a {
-        color: #fff;
-        background-color: #ccc;
-    }
-
-    .reward-tabs .tab a:hover {
-        background-color: #ccc;
-        color: #fff;
-    }
-
-    .reward-tabs .wechat-tab .active {
-        color: #fff !important;
-        background-color: #22AB38 !important;
-    }
-
-    .reward-tabs .alipay-tab .active {
-        color: #fff !important;
-        background-color: #019FE8 !important;
-    }
-
-    .reward-tabs .reward-img {
-        width: 210px;
-        height: 210px;
-    }
-</style>
-
-<div id="reward">
-    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
-
-    <!-- Modal Structure -->
-    <div id="rewardModal" class="modal">
-        <div class="modal-content">
-            <a class="close modal-close"><i class="fas fa-times"></i></a>
-            <h4 class="reward-title">你的赏识是我前进的动力</h4>
-            <div class="reward-content">
-                <div class="reward-tabs">
-                    <ul class="tabs row">
-                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
-                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
-                    </ul>
-                    <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
-                    </div>
-                    <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-</div>
 
-<script>
-    $(function () {
-        $('.tabs').tabs();
-    });
-</script>
+    
 
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <article id="prenext-posts" class="prev-next articles">
+        <div class="row article-row">
             
+                <div class="article col s12 m6" data-aos="fade-up">
+                    <div class="article-badge left-badge text-color">
+                        <i class="fas fa-chevron-left"></i>&nbsp;上一篇
+                    </div>
+                    <div class="card">
+                        <a href="/2021/11/16/hello-world/">
+                            <div class="card-image">
+                                
+                                        
+                                            <img src="/medias/featureimages/12.jpg"
+                                                class="responsive-img" alt="Hello World">
+                                            
+                                                <span class="card-title">
+                                                    Hello World
+                                                </span>
+                            </div>
+                        </a>
+                        <div class="card-content article-content">
+                            <div class="summary block-with-text">
+                                
+                                            
+                                                
+                            </div>
+                            <div class="publish-info">
+                                <span class="publish-date">
+                                    <i class="far fa-clock fa-fw icon-date"></i>
+                                    2021-11-16
+                                </span>
+                                <span class="publish-author">
+                                    
+                                                            <i class="fas fa-user fa-fw"></i>
+                                                            顾冷
+                                                                
+                                </span>
+                            </div>
+                        </div>
+                        
+                            <div class="card-action article-tags">
+                                
+                                    <a href="/tags/Hello-World/">
+                                        <span class="chip bg-color">
+                                            Hello World
+                                        </span>
+                                    </a>
+                                    
+                            </div>
+                            
+                    </div>
+                </div>
+                
+                        
+                                <div class="article col s12 m6" data-aos="fade-up">
+                                    <div class="article-badge right-badge text-color">
+                                        本篇&nbsp;<i class="far fa-dot-circle"></i>
+                                    </div>
+                                    <div class="card">
+                                        <a href="/2021/11/05/vue3/">
+                                            <div class="card-image">
+                                                
+                                                        
+                                                            <img src="/medias/featureimages/13.jpg"
+                                                                class="responsive-img" alt="vue3">
+                                                            
+                                                                <span class="card-title">
+                                                                    vue3
+                                                                </span>
+                                            </div>
+                                        </a>
+                                        <div class="card-content article-content">
+                                            <div class="summary block-with-text">
+                                                
+                                                            
+                                                                
+                                            </div>
+                                            <div class="publish-info">
+                                                <span class="publish-date">
+                                                    <i class="far fa-clock fa-fw icon-date"></i>
+                                                    2021-11-05
+                                                </span>
+                                                <span class="publish-author">
+                                                    
+                                                                            <i class="fas fa-user fa-fw"></i>
+                                                                            顾冷
+                                                                                
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        
+                                            <div class="card-action article-tags">
+                                                
+                                                    <a href="/tags/vue3/">
+                                                        <span class="chip bg-color">
+                                                            vue3
+                                                        </span>
+                                                    </a>
+                                                    
+                                            </div>
+                                            
+                                    </div>
+                                </div>
+                                
         </div>
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-<article id="prenext-posts" class="prev-next articles">
-    <div class="row article-row">
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
-            <div class="card">
-                <a href="/2021/11/16/hello-world/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-11-16
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            顾冷
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Hello-World/">
-                        <span class="chip bg-color">Hello World</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/11/05/vue3/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="vue3">
-                        
-                        <span class="card-title">vue3</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-05
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            顾冷
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/vue3/">
-                        <span class="chip bg-color">vue3</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-    </div>
-</article>
-
+    </article>
 </div>
 
 
@@ -2726,7 +2621,8 @@ function useDebounceRef(initialValue, delay) {
     </div>
     <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
         <div class="toc-widget card" style="background-color: white;">
-            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录
+            </div>
             <div id="toc-content"></div>
         </div>
     </div>
@@ -2734,89 +2630,93 @@ function useDebounceRef(initialValue, delay) {
 
 <!-- TOC 悬浮按钮. -->
 
-<div id="floating-toc-btn" class="hide-on-med-and-down">
-    <a class="btn-floating btn-large bg-color">
-        <i class="fas fa-list-ul"></i>
-    </a>
-</div>
+    <div id="floating-toc-btn" class="hide-on-med-and-down">
+        <a class="btn-floating btn-large bg-color">
+            <i class="fas fa-list-ul"></i>
+        </a>
+    </div>
+    
 
+        <script src="/libs/tocbot/tocbot.min.js"></script>
+        <script>
+            $(function () {
+                tocbot.init({
+                    tocSelector: '#toc-content',
+                    contentSelector: '#articleContent',
+                    headingsOffset: -($(window).height() * 0.4 - 45),
+                    collapseDepth: Number('0'),
+                    headingSelector: 'h2, h3, h4'
+                });
 
-<script src="/libs/tocbot/tocbot.min.js"></script>
-<script>
-    $(function () {
-        tocbot.init({
-            tocSelector: '#toc-content',
-            contentSelector: '#articleContent',
-            headingsOffset: -($(window).height() * 0.4 - 45),
-            collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
-        });
+                // modify the toc link href to support Chinese.
+                let i = 0;
+                let tocHeading = 'toc-heading-';
+                $('#toc-content a').each(function () {
+                    $(this).attr('href', '#' + tocHeading + (++i));
+                });
 
-        // modify the toc link href to support Chinese.
-        let i = 0;
-        let tocHeading = 'toc-heading-';
-        $('#toc-content a').each(function () {
-            $(this).attr('href', '#' + tocHeading + (++i));
-        });
+                // modify the heading title id to support Chinese.
+                i = 0;
+                $('#articleContent').children('h2, h3, h4').each(function () {
+                    $(this).attr('id', tocHeading + (++i));
+                });
 
-        // modify the heading title id to support Chinese.
-        i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
-            $(this).attr('id', tocHeading + (++i));
-        });
-
-        // Set scroll toc fixed.
-        let tocHeight = parseInt($(window).height() * 0.4 - 64);
-        let $tocWidget = $('.toc-widget');
-        $(window).scroll(function () {
-            let scroll = $(window).scrollTop();
-            /* add post toc fixed. */
-            if (scroll > tocHeight) {
-                $tocWidget.addClass('toc-fixed');
-            } else {
-                $tocWidget.removeClass('toc-fixed');
-            }
-        });
+                // Set scroll toc fixed.
+                let tocHeight = parseInt($(window).height() * 0.4 - 64);
+                let $tocWidget = $('.toc-widget');
+                let tocWidget = $(".toc-widget").height();
+                $(window).scroll(function () {
+                    let scroll = $(window).scrollTop();
+                    /* add post toc fixed. */
+                    if (scroll > tocHeight && tocWidget >= 500) {
+                        $tocWidget.addClass('toc-fixed2');
+                    } else if (scroll > tocHeight) {
+                        $tocWidget.addClass('toc-fixed');
+                    }
+                    else {
+                        $tocWidget.removeClass('toc-fixed');
+                        $tocWidget.removeClass('toc-fixed2');
+                    }
+                });
 
         
-        /* 修复文章卡片 div 的宽度. */
-        let fixPostCardWidth = function (srcId, targetId) {
-            let srcDiv = $('#' + srcId);
-            if (srcDiv.length === 0) {
-                return;
-            }
+                    /* 修复文章卡片 div 的宽度. */
+                    let fixPostCardWidth = function (srcId, targetId) {
+                        let srcDiv = $('#' + srcId);
+                        if (srcDiv.length === 0) {
+                            return;
+                        }
 
-            let w = srcDiv.width();
-            if (w >= 450) {
-                w = w + 21;
-            } else if (w >= 350 && w < 450) {
-                w = w + 18;
-            } else if (w >= 300 && w < 350) {
-                w = w + 16;
-            } else {
-                w = w + 14;
-            }
-            $('#' + targetId).width(w);
-        };
+                        let w = srcDiv.width();
+                        if (w >= 450) {
+                            w = w + 21;
+                        } else if (w >= 350 && w < 450) {
+                            w = w + 18;
+                        } else if (w >= 300 && w < 350) {
+                            w = w + 16;
+                        } else {
+                            w = w + 14;
+                        }
+                        $('#' + targetId).width(w);
+                    };
 
-        // 切换TOC目录展开收缩的相关操作.
-        const expandedClass = 'expanded';
-        let $tocAside = $('#toc-aside');
-        let $mainContent = $('#main-content');
-        $('#floating-toc-btn .btn-floating').click(function () {
-            if ($tocAside.hasClass(expandedClass)) {
-                $tocAside.removeClass(expandedClass).hide();
-                $mainContent.removeClass('l9');
-            } else {
-                $tocAside.addClass(expandedClass).show();
-                $mainContent.addClass('l9');
-            }
-            fixPostCardWidth('artDetail', 'prenext-posts');
-        });
+                    // 切换TOC目录展开收缩的相关操作.
+                    const expandedClass = 'expanded';
+                    let $tocAside = $('#toc-aside');
+                    let $mainContent = $('#main-content');
+                    $('#floating-toc-btn .btn-floating').click(function () {
+                        if ($tocAside.hasClass(expandedClass)) {
+                            $tocAside.removeClass(expandedClass).hide();
+                            $mainContent.removeClass('l9');
+                        } else {
+                            $tocAside.addClass(expandedClass).show();
+                            $mainContent.addClass('l9');
+                        }
+                        fixPostCardWidth('artDetail', 'prenext-posts');
+                    });
         
     });
-</script>
-
+        </script>
     
 
 </main>
