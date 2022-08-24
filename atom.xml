@@ -6,7 +6,7 @@
   <link href="https://wuhongzhi5.github.io/atom.xml" rel="self"/>
   
   <link href="https://wuhongzhi5.github.io/"/>
-  <updated>2022-08-24T14:45:18.618Z</updated>
+  <updated>2022-08-24T14:51:29.989Z</updated>
   <id>https://wuhongzhi5.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux</title>
+    <link href="https://wuhongzhi5.github.io/2022/08/25/linux/"/>
+    <id>https://wuhongzhi5.github.io/2022/08/25/linux/</id>
+    <published>2022-08-25T14:45:30.000Z</published>
+    <updated>2022-08-24T14:51:29.989Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-操作系统概述&quot;&gt;&lt;a href=&quot;#1-操作系统概述&quot; class=&quot;headerlink&quot; title=&quot;1. 操作系统概述&quot;&gt;&lt;/a&gt;1. 操作系统概述&lt;/h2&gt;&lt;h3 id=&quot;1-1-操作系统及作用&quot;&gt;&lt;a href=&quot;#1-1-操作系统及作用&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Linux" scheme="https://wuhongzhi5.github.io/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>React</title>
@@ -36,29 +59,6 @@
     
     
     <category term="React" scheme="https://wuhongzhi5.github.io/tags/React/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://wuhongzhi5.github.io/2021/11/16/hello-world/"/>
-    <id>https://wuhongzhi5.github.io/2021/11/16/hello-world/</id>
-    <published>2021-11-16T14:28:55.105Z</published>
-    <updated>2021-11-16T14:56:29.670Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Hello World" scheme="https://wuhongzhi5.github.io/tags/Hello-World/"/>
     
   </entry>
   
