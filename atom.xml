@@ -6,7 +6,7 @@
   <link href="https://wuhongzhi5.github.io/atom.xml" rel="self"/>
   
   <link href="https://wuhongzhi5.github.io/"/>
-  <updated>2022-08-24T14:41:54.682Z</updated>
+  <updated>2022-08-24T14:45:18.618Z</updated>
   <id>https://wuhongzhi5.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>React</title>
     <link href="https://wuhongzhi5.github.io/2022/08/24/react/"/>
     <id>https://wuhongzhi5.github.io/2022/08/24/react/</id>
-    <published>2022-08-24T14:33:36.724Z</published>
-    <updated>2022-08-24T14:41:54.682Z</updated>
+    <published>2022-08-24T14:45:30.000Z</published>
+    <updated>2022-08-24T14:45:18.618Z</updated>
     
     
       
@@ -34,6 +34,8 @@
     
     
     
+    
+    <category term="React" scheme="https://wuhongzhi5.github.io/tags/React/"/>
     
   </entry>
   
