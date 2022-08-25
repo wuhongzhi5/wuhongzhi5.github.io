@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="vue3, 顾冷的博客">
+    <meta name="keywords" content="Vue3, 顾冷的博客">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>vue3 | 顾冷的博客</title>
+    <title>Vue3 | 顾冷的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -324,7 +324,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">vue3</h1>
+                    <h1 class="description center-align post-title">Vue3</h1>
                 </div>
             </div>
         </div>
@@ -449,8 +449,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/vue3/">
-                                <span class="chip bg-color">vue3</span>
+                            <a href="/tags/Vue3/">
+                                <span class="chip bg-color">Vue3</span>
                             </a>
                         
                     </div>
@@ -506,7 +506,7 @@
 <li><p>Vue 是目前国内前端使用者最多的框架，Vue3 是将来的必然趋势</p>
 </li>
 </ul>
-<img src="/medias/images/04.png" width="40%" align="left">
+<img src="/medias/vueimg/04.png" width="40%" align="left">
 
 
 
@@ -522,7 +522,7 @@
 <li>启动应用：<code>npm run dev</code></li>
 <li>访问应用：<code>localhost:3000</code></li>
 </ol>
-<img src="/medias/images/05.png" width="35%" align="left">
+<img src="/medias/vueimg/05.png" width="35%" align="left">
 
 
 
@@ -544,13 +544,13 @@
 <p>目标：掌握组合式 API 相比较选项式 API，它的优势是什么。</p>
 </blockquote>
 <p>在选项式API中，它将数据和逻辑进行了分离，所有不相关的数据被放置在了一起，所以不相关的逻辑被放置在了一起，随着应用规模的增加，项目将会变得越来越难以维护。</p>
-<img src="/medias/images/01.gif" width="40%" align="left">
+<img src="/medias/vueimg/01.gif" width="40%" align="left">
 
 <p>在组合式 API 中，它将同一个功能的逻辑和数据放置在了一起，使同一个的功能代码更加聚合。</p>
-<img src="/medias/images/02.gif" width="50%" align="left">
+<img src="/medias/vueimg/02.gif" width="50%" align="left">
 
 <p>同一个功能的代码可以被抽取到单独的文件中，使应用代码更加维护。</p>
-<img src="/medias/images/03.gif" align="left" width="50%">
+<img src="/medias/vueimg/03.gif" align="left" width="50%">
 
 <h2 id="5-组合式-API-入口"><a href="#5-组合式-API-入口" class="headerlink" title="5. 组合式 API 入口"></a>5. 组合式 API 入口</h2><blockquote>
 <p>目标：掌握 setup 函数的基本使用。</p>
@@ -1771,12 +1771,12 @@ export default {
 <p>掌握 Vuex 实现全局状态管理的方式</p>
 </blockquote>
 <h3 id="21-1-问题"><a href="#21-1-问题" class="headerlink" title="21.1 问题"></a>21.1 问题</h3><p>在不使用全局状态管理库时, 应用状态由组件管理, 当多个组件需要共享使用同一个应用状态时, 应用状态需要通过 props 或自定义事件在组件之间进行传递, 在组件与组件之间的关系比较疏远时, 手递手的这种传递方式显得特别混乱, 使得应用的维护变得困难.</p>
-<img src="/medias/images/87.png" align="left" width="30%">
+<img src="/medias/vueimg/87.png" align="left" width="30%">
 
   
 
 <p>在使用了全局状态管理库后, 需要共享的应用状态被单独存储在一个独立于组件的 Store 对象中, 所有组件可以直接从这个对象中获取状态, 省去了繁琐的组件状态传递过程. 而且当 Store 中的状态发生变化后，组件也会自动更新。</p>
-<img src="/medias/images/87_1.png" align="left" width="30%">
+<img src="/medias/vueimg/87_1.png" align="left" width="30%">
 
 <h3 id="21-2-Vuex-工作流程"><a href="#21-2-Vuex-工作流程" class="headerlink" title="21.2 Vuex 工作流程"></a>21.2 Vuex 工作流程</h3><p>State: 用于存储应用状态 (store.state)</p>
 <p>Action: 用于执行异步操作 (dispatch)</p>
@@ -1784,7 +1784,7 @@ export default {
 <p>Getter: vuex 中的计算属性 (store.getters)</p>
 <p>Module: 模块, 用于对状态进行拆分</p>
 <p>在组件中开发者可以调用 dispatch 方法触发 Action 执行异步操作, 当异步操作执行完成后, 在 Action 中可以继续调用 commit 方法触发 mutation 修改状态, 当状态被修改以后, 视图更新. </p>
-<img src="/medias/images/85.png" align="left" width="70%">
+<img src="/medias/vueimg/85.png" align="left" width="70%">
 
 <h3 id="21-3-下载"><a href="#21-3-下载" class="headerlink" title="21.3 下载"></a>21.3 下载</h3><p>Vuex 目前有两个版本, 一个是 <code>3.6.2</code>, 另一个是 <code>4.0.2</code>, 3.x 的版本是供 Vue2 使用的, 4.x 版本是供 Vue3 使用的.</p>
 <p>在下载 Vuex 的时候如果不加版本号，默认下载的是 3.x 版本, 而我们要使用的是 4.x 的版本, 所以在下载时千万记得加版本号.</p>
@@ -2001,7 +2001,7 @@ export default {
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
-<img src="/medias/images/17.png">
+<img src="/medias/vueimg/17.png">
 
 <h4 id="21-9-3-命名空间模块"><a href="#21-9-3-命名空间模块" class="headerlink" title="21.9.3 命名空间模块"></a>21.9.3 命名空间模块</h4><p>命名空间模块需要在模块对象中添加 <code>namespaced: true</code> 选项。</p>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span> createStore <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vuex'</span>
@@ -2447,8 +2447,8 @@ function useDebounceRef(initialValue, delay) {
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/vue3/">
-                                    <span class="chip bg-color">vue3</span>
+                                <a href="/tags/Vue3/">
+                                    <span class="chip bg-color">Vue3</span>
                                 </a>
                             
                         </div>
@@ -2553,10 +2553,10 @@ function useDebounceRef(initialValue, delay) {
                                                 
                                                         
                                                             <img src="/medias/featureimages/13.jpg"
-                                                                class="responsive-img" alt="vue3">
+                                                                class="responsive-img" alt="Vue3">
                                                             
                                                                 <span class="card-title">
-                                                                    vue3
+                                                                    Vue3
                                                                 </span>
                                             </div>
                                         </a>
@@ -2583,9 +2583,9 @@ function useDebounceRef(initialValue, delay) {
                                         
                                             <div class="card-action article-tags">
                                                 
-                                                    <a href="/tags/vue3/">
+                                                    <a href="/tags/Vue3/">
                                                         <span class="chip bg-color">
-                                                            vue3
+                                                            Vue3
                                                         </span>
                                                     </a>
                                                     
